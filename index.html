@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- reponesive css -->
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>Bee Music</title>
+</head>
+<body>
+    <div class="main">
+        <div class="open-sidebar"><i class="fa-solid fa-circle-right"></i></div>
+        <aside class="sidebar">
+            <div class="close-sidebar"><i class="fa-solid fa-circle-xmark"></i></div>
+            <div class="main-logo">
+                <a href="">
+                    <img class="logo-responesive" src="https://logopond.com/logos/c5040bab0e15f542c7da8a127e9ac585.png" alt="">
+                    <img class="logo-pc" src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar">
+                <li class="navbar-item active"><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-solid fa-chart-simple"></i> Trends</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-regular fa-compass"></i> Feed</a></li>
+            </ul>
+
+            <span class="nav-title">Dicover</span>
+            <ul class="navbar">
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-solid fa-newspaper"></i> New and notetable</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-solid fa-calendar-days"></i> Release Calendar</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-solid fa-ticket"></i> Event</a></li>
+            </ul>
+
+            <span class="nav-title">Dicover</span>
+            <ul class="navbar">
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-regular fa-heart"></i>Favorite Song</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-regular fa-user"></i> Artist</a></li>
+                <li class="navbar-item hover-nav"><a href=""><i class="fa-regular fa-star"></i> Albums</a></li>
+            </ul>
+
+            <div class="account-box">
+                <a href="">
+                    <div class="avata"></div>
+                    <div class="name">Phan Tan Duy</div>
+                    <div class="icon-right"><i class="fa-solid fa-angle-right"></i></div>
+                </a>
+            </div>
+        </aside>
+        <div class="main-body">
+            <div class="main-body-left">
+                <header>
+                    <div class="control-page">
+                        <div class="btn-prev-page">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="btn-next-page">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <form action="" class="search-form">
+                        <div class="search-box">
+                            <div class="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="search-input">
+                                <input type="text" placeholder="Search for artist song and...">
+                            </div>
+                        </div>
+                    </form>
+                </header>
+                <!-- slider -->
+                <section class="slider">
+                    <span>What's hot <i class="fa-solid fa-fire"></i></span>
+                    <div class="slider-title">
+                        <h2>Trending</h2>
+                        <span>More <i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+
+                    <div class="slider-wrapper">
+                        <div class="slider-box">
+                            <div class="slider-box-item slider-box-item-1">
+                                <div class="slider-box-item-content">
+                                    <div class="content-heading">
+                                        Artist
+                                    </div>
+                                    <h2 class="content-namesong">
+                                        on top of the word
+                                    </h2>
+                                    <div class="content-btn-action">
+                                        <button>Play</button>
+                                        <button>Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="slider-box-item slider-box-item-2">
+                                <div class="slider-box-item-content">
+                                    <div class="content-heading">
+                                        Image Dragon
+                                    </div>
+                                    <h2 class="content-namesong">
+                                        on top of the word
+                                    </h2>
+                                    <div class="content-btn-action">
+                                        <button>Play</button>
+                                        <button>Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="slider-box-item slider-box-item-3">
+                                <div class="slider-box-item-content">
+                                    <div class="content-heading">
+                                        Angels
+                                    </div>
+                                    <h2 class="content-namesong">
+                                        hotel california
+                                    </h2>
+                                    <div class="content-btn-action">
+                                        <button>Play</button>
+                                        <button>Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- button control slider -->
+                    <button class="btn-control btn-prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="btn-control btn-next"><i class="fa-solid fa-angle-right"></i></button>
+                </section>
+
+                <!-- playplist -->
+                <section class="playlist">
+                    <div class="playlist-header">
+                        <h1>My Playlist</h1>
+                        <span>Show More</span>
+                    </div>
+
+                    <div class="playlist-box">
+                        <div class="playlist-box__title">
+                            <div class="serial">#</div>
+                            <div class="title">title</div>
+                            <div class="artist">artist</div>
+                            <div class="time">time</div>
+                            <div class="album">album</div>
+                        </div>
+
+                        <ul class="list-song">
+                            
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="controll-player">
+                    <div class="controll-player-top">
+                        <div class="cd">
+                            <div class="cd-img" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg');"></div>
+                        </div>
+                        <div class="controller">
+                            <div class="btn-repeat"><i class="fa-solid fa-repeat"></i></div>
+                            <div class="btn-prev-song">
+                                <i class="fa-solid fa-backward-step"></i>
+                            </div>
+                            <div class="btn-toggle-play">
+                                <i class="fa-solid fa-circle-play icon-play"></i>
+                                <i class="fa-solid fa-circle-pause icon-pause"></i>
+                            </div>
+                            <div class="btn-next-song">
+                                <i class="fa-solid fa-forward-step"></i>
+                            </div>
+                            <div class="btn-mix">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </div>
+                        </div>
+                        <div class="volumn-controller">
+                            <div class="value-volumn">
+                                <span>100%</span>
+                            </div>
+                            <i class="fa-solid fa-volume-low"></i>
+                            <div class="volumn-input-box">
+                                <div class="volumn-input-bar"></div>
+                                <input class="volumn-input" id="volumn-input" type="range" value="0" step="1" min="0" max="100">
+                            </div>
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                        <div class="close-fixed">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    <div class="controll-player-bottom">
+                        <div class="name-song">
+                            <h3>Beliveraaaaaaaaaaaaa</h3>
+                        </div>
+                        <div class="progress-box">
+                            <div class="progress-bar"></div>
+                            <input class="progress" id="progress" type="range" value="0" step="1" min="0" max="100">
+                        </div>
+                    </div>
+
+                    <audio src="" id="audio"></audio>
+                </section>
+            </div>
+
+            <div class="main-body-right">
+                <div class="shortcuts">
+                    <div class="shortcuts-title">Shortcuts</div>
+                    <div class="shortcuts-row-item">
+                        <button class="shortcut-tag"><i class="fa-solid fa-snowflake"></i> Chill Hits</button>
+                        <button class="shortcut-tag"><i class="fa-solid fa-star"></i> HipHop</button>
+                    </div>
+                    <div class="shortcuts-row-item">
+                        <button class="shortcut-tag"><i class="fa-solid fa-guitar"></i> Aucotics</button>
+                        <button class="shortcut-tag"><i class="fa-solid fa-music"></i> Indie Pop</button>
+                    </div>
+                    <div class="shortcuts-row-item">
+                        <button class="shortcut-tag"><i class="fa-brands fa-adn"></i> Piano Blues</button>
+                        <button class="shortcut-tag"><i class="fa-brands fa-accusoft"></i> Jazz</button>
+                    </div>
+                </div>
+
+                <div class="fav-artist">
+                    <div class="fav-artist-title">Fav Artist</div>
+
+                    <ul>
+                        <li class="fav-artist-item">
+                            <div class="fav-artist-item-img" style="background-image: url('https://vcdn1-giaitri.vnecdn.net/2020/03/06/TaylorSwift-1583461602-2814-1583461788.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=saCN0gu1ejADmfNdT4rh3A');">
+
+                            </div>
+                            <div class="fav-artist-item-body">
+                                <div class="fav-artist-item-body-name">
+                                    Taylor Swift
+                                </div>
+                                <div class="fav-artist-item-body-desc">
+                                    196 songs in library
+                                </div>
+                            </div>
+                            <div class="fav-artist-item-option">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </li>
+
+                        <li class="fav-artist-item">
+                            <div class="fav-artist-item-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_%28cropped%29.jpg');">
+
+                            </div>
+                            <div class="fav-artist-item-body">
+                                <div class="fav-artist-item-body-name">
+                                    Kanye West
+                                </div>
+                                <div class="fav-artist-item-body-desc">
+                                    124 songs in library
+                                </div>
+                            </div>
+                            <div class="fav-artist-item-option">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </li>
+
+                        <li class="fav-artist-item">
+                            <div class="fav-artist-item-img" style="background-image: url('https://zmp3-photo-fbcrawler.zmdcdn.me/avatars/6/6/a/e/66ae1a2a7d5e58e11f0257237aa63c34.jpg');">
+
+                            </div>
+                            <div class="fav-artist-item-body">
+                                <div class="fav-artist-item-body-name">
+                                    drake
+                                </div>
+                                <div class="fav-artist-item-body-desc">
+                                    50 songs in library
+                                </div>
+                            </div>
+                            <div class="fav-artist-item-option">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </li>
+
+                        <li class="fav-artist-item">
+                            <div class="fav-artist-item-img" style="background-image: url('https://kenh14cdn.com/203336854389633024/2022/2/20/photo-1-1645350058267149016134.jpg');">
+
+                            </div>
+                            <div class="fav-artist-item-body">
+                                <div class="fav-artist-item-body-name">
+                                    The Weeknd
+                                </div>
+                                <div class="fav-artist-item-body-desc">
+                                    100 songs in library
+                                </div>
+                            </div>
+                            <div class="fav-artist-item-option">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="outstand-artist">
+                    <div class="wrapper"><div class="outstand-artist-img"></div></div>
+                    <div class="outstand-artist-content">
+                        <div class="outstand-artist-info">
+                            <div class="info-name-song">
+                                Lisa
+                            </div>
+                            <div class="info-name">
+                                LALISA
+                            </div>
+                        </div>
+
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

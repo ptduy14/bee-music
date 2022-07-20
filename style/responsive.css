@@ -1,0 +1,275 @@
+@media (min-width: 1116px){
+    .logo-responesive{
+        display: none;
+    }
+    .close-sidebar{
+        display: none;
+    }
+    .open-sidebar{
+        display: none;
+    }
+}
+@media (max-width: 1115px) and (min-width: 1024px){
+    .navbar .navbar-item{
+        overflow: hidden;
+        text-overflow: unset;
+    }
+    .navbar .navbar-item a{
+        font-size: 0rem;
+    }
+    .navbar .navbar-item i{
+        margin: 0;
+    }
+    .nav-title{
+        padding: 0;
+    }
+    .main .sidebar{
+        text-align: center;
+        width: 9%;
+        padding: 0;
+    }
+    .account-box a .name{
+        display: none;
+    }
+    .icon-right{
+        display: none;
+    }
+    .account-box a{
+        padding: 0;
+    }
+    .account-box a .avata{
+        margin-right: 0;
+    }
+    .logo-pc{
+        display: none;
+    }
+    .navbar{
+        padding: 0 20px;
+    }
+    .account-box{
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar .main-logo a{
+        width: 100%;
+    }
+    .main .main-body{
+        margin-left: 9%;
+    }
+    .main .main-body{
+        width: 91%;
+    }
+    .shortcuts-row-item .shortcut-tag{
+        padding: 15px 14px;
+    }
+    .controll-player.fixed{
+        width: 67%;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px){
+    .navbar .navbar-item{
+        overflow: hidden;
+        text-overflow: unset;
+    }
+    .navbar .navbar-item a{
+        font-size: 0rem;
+    }
+    .navbar .navbar-item i{
+        margin: 0;
+    }
+    .nav-title{
+        padding: 0;
+    }
+    .main .sidebar{
+        text-align: center;
+        width: 9%;
+        padding: 0;
+    }
+    .account-box a .name{
+        display: none;
+    }
+    .icon-right{
+        display: none;
+    }
+    .account-box a{
+        padding: 0;
+    }
+    .account-box a .avata{
+        margin-right: 0;
+    }
+    .logo-pc{
+        display: none;
+    }
+    .navbar{
+        padding: 0 20px;
+    }
+    .account-box{
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar .main-logo a{
+        width: 100%;
+    }
+    .main .main-body{
+        margin-left: 9%;
+    }
+    .main .main-body{
+        width: 91%;
+    }
+    .shortcuts-row-item .shortcut-tag{
+        padding: 15px 10px;
+        font-size: 0.7rem;
+    }
+    .controll-player.fixed{
+        width: 67%;
+    }
+    .navbar{
+        padding: 0 10px;
+    }
+    .slider-box-item-content{
+        padding: 30px 0px 0 50px;
+    }
+    .shortcuts-row-item .shortcut-tag{
+        display: flex;
+        align-items: center;
+    }
+    .list-song .song-item.active{
+        font-size: 0.8rem;
+    }
+    .controller{
+        font-size: 1rem;
+    }
+    .main .main-body{
+       padding: 20px 0 20px 10px;
+    }
+    .shortcuts-row-item .shortcut-tag i{
+        margin-right: 3px;
+    }
+    .close-sidebar{
+        display: none;
+    }
+    .open-sidebar{
+        display: none;
+    }
+}
+
+@media (max-width: 723px){
+    .logo-pc{
+        display: none;
+    }
+    .main .sidebar{
+        width: 100%;
+        left: -100%;
+        z-index: 9999;
+    }
+    .main .sidebar.active{
+        left: 0px;
+        animation: slideSidebar 0.5s ease;
+    }
+    @keyframes slideSidebar {
+        from{
+            left: -100%;
+        }
+        to{
+            left: 0;
+        }
+    }
+    .main .main-body{
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .main .main-body .main-body-left{
+        width: 100%;
+    }
+    .main .main-body .main-body-left header{
+        padding: 0;
+        justify-content: space-between;
+    }
+    .search-form{
+        width: 75%;
+    }
+    .playlist-header{
+        padding: 0;
+    }
+    .list-song{
+        padding: 55px 0;
+    }
+    .playlist-box__title .album{
+        display: none;
+    }
+    .list-song li .album{
+        display: none;
+    }
+    .playlist-box__title .title{
+        width: 45%;
+    }
+    .list-song li .title{
+        width: 45%;
+    }
+    .playlist-box__title .artist{
+        width: 35%;
+    }
+    .list-song li .artist{
+        width: 35%;
+    }
+    .controll-player-top{
+        flex-direction: column;
+    }
+    .controll-player-bottom .name-song{
+        width: 100%;
+        margin: 0 0 10px 0;
+        animation: unset;
+    }
+    .cd{
+        width: 35%;
+        margin-bottom: 10px;
+    }
+    .controller {
+        margin-bottom: 10px;
+    }
+    .volumn-controller{
+        margin-bottom: 15px;
+    }
+    .controller > div{
+        margin: 10px 20px;
+    }
+    input[type="range"]{
+        width: 120px;
+    }
+    .controll-player.fixed{
+        width: 100%;
+        z-index: 99;
+    }
+    .controll-player.fixed{
+        right: 0;
+        left: 0;
+    }
+
+    .main-body-right{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .content-namesong{
+        font-size: 1.5rem;
+    }
+    .slider-box-item-content{
+        width: 76%;
+        padding: 70px 0px 0 50px;
+    }
+    .content-btn-action button:last-child{
+        padding: 10px 17px;
+    }
+    .close-sidebar{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .open-sidebar{
+        position: fixed;
+        left: 10px;
+        top: 50%;
+        z-index: 999;
+    }
+}
